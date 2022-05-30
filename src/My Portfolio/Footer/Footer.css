@@ -1,0 +1,18 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    padding:60px;
+    
+    }
+
+.footer-message-container{
+    background-color: aliceblue;
+    
+    width: fit-content;
+    border-radius: 10px;
+
+}
+.footer-message{
+    padding: 10px;
+}

@@ -1,0 +1,61 @@
+.AboutMe-container {
+    display: flex;
+}
+
+.AboutMe-values-container{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px black; */
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column
+}
+.AboutMe-Me-container{
+    width: 45%;
+    display: flex;
+    justify-content: left;
+    /* border: solid 1px black; */
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column
+}
+.AboutMe-education-container{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px black; */
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column
+}
+.AboutMe-content-container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.AboutMe-values-title{
+    display: flex;
+    justify-content: center;
+}
+
+.Dates {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color:rgb(0, 85, 255);
+    font-size: large;
+}
+.Values-column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.border{ 
+    border-radius: 5px;
+     background-color: black;
+     padding: 2px ;
+}

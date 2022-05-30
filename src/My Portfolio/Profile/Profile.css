@@ -1,0 +1,56 @@
+.profile-container {
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+height: 18%;
+min-height: fit-content;
+background-color: cornflowerblue;
+padding: 1%
+}
+
+.profile-button-obj{
+    border-radius: 15px;
+    padding: 10px, 10px;
+    background-color: beige;
+    
+}
+.profile-icons{
+    color:black;
+}
+.column{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.profile-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-details-name {
+    font-size: larger;
+    font-weight: 600;
+}
+.profile-details-role{
+    font-weight: 500;
+    font-size: larger;
+}
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url('../../assets/images/Grad-Pic.PNG');
+    background-size: cover;
+}

@@ -1,0 +1,13 @@
+.links {
+    list-style: none;
+}
+
+.border{ 
+    border-radius: 5px;
+     background-color: black;
+     padding: 2px ;
+}
+
+.email{ 
+    color:rgb(0, 85, 255)
+}
